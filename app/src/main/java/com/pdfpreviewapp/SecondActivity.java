@@ -28,7 +28,7 @@ public class SecondActivity extends AppCompatActivity {
 
         protected Void doInBackground(Void... voids) {
             try {
-                InputStream input = new URL("https://livefitlife.in/LFL/public/uploads/generic/60dd98176a261DietPreparation&Grocerylist.pdf").openStream();
+                InputStream input = new URL("http://www.africau.edu/images/default/sample.pdf").openStream();
                 pdfView.fromStream(input).load();
             } catch (IOException e) {
                 e.printStackTrace();
